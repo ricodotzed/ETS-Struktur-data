@@ -3,7 +3,7 @@ Nama : Sinurat, Federico
 
 NRP : 5025241244
 
-Demo : 
+Demo : https://youtu.be/XsvpEWVRi0g
  
 
 1.  Array adalah struktur data linear yang menyimpan kumpulan elemen dengan tipe data yang sama dalam lokasi memori yang berurutan. Setiap elemen diakses menggunakan indeks (biasanya dimulai dari 0).
