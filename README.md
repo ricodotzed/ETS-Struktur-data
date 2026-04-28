@@ -111,9 +111,9 @@ int main() {
  
  
  
-5. 
-
-1. Queue adalah struktur data linear dengan prinsip FIFO, elemen yang pertama masuk adalah yang pertama keluar. Dalam sistem layanan akademik:
+5.
+1)
+Queue adalah struktur data linear dengan prinsip FIFO, elemen yang pertama masuk adalah yang pertama keluar. Dalam sistem layanan akademik:
 Konsep Queue	Implementasi di Sistem
 Enqueue	Mahasiswa ambil nomor antrian → masuk ke Rear
 Dequeue	Petugas memanggil mahasiswa → keluar dari Front
@@ -124,7 +124,7 @@ isFull	Antrian sudah mencapai kapasitas maksimum
 
 Alur kerja: mahasiswa datang → enqueue → menunggu → dipanggil petugas → dequeue → dilayani → selesai.
 
-2. 
+2) 
 
 Algoritma Enqueue (Tambah Antrean):
 
@@ -155,7 +155,7 @@ Algoritma Dequeue (Layani Mahasiswa):
         Jika setelah dihapus antrean jadi kosong, reset front dan rear ke kondisi awal.
           
 
- 3. 
+ 3) 
 ```
 #include <iostream>
 #include <string>
@@ -197,7 +197,7 @@ void display() {
     cout << "\n\n";
 }
 ``` 
- 4. 
+ 4) 
 ```
 int main() {
     enqueue("A");
